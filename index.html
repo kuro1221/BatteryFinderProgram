@@ -15,10 +15,45 @@
   </head>
   <body id="target" class="vh-100">
     <nav class="navbar navbar-dark bg-primary">
-      <h1 class="text-light">BatteryFinderProgram</h1>
+      <h1 class="text-light mx-auto">BatteryFinderProgram</h1>
     </nav>
-    <div id="target" class="m-5 p-5 d-flex"></div>
-
+    <div id="target" class="m-5 p-5 col-10">
+      <div class="stepDiv">
+        <h2 class="stepTitle">step1: Select your brand</h2>
+        <select id="brandSelect">
+          <option>未選択</option>
+        </select>
+      </div>
+      <div class="stepDiv">
+        <h2 class="stepTitle">step2: Select your Model</h2>
+        <select id="modelSelect">
+          <option>未選択</option>
+        </select>
+      </div>
+      <div class="stepDiv">
+        <h2 class="stepTitle">step3: Input Accessory Power Consumption</h2>
+        <input
+          type="number"
+          placeholder="0"
+          id="inputPower"
+          class="mr-1"
+          style="width: 40px"
+        />W
+      </div>
+      <div class="stepDiv">
+        <h2 class="stepTitle">step4: Choose Your Battery</h2>
+        <div id="batteryList">
+          <div class="batteryItem d-flex justify-content-between">
+            <span class="batteryName">IYK-D75</span>
+            <span class="estimated">estimated 4.6 hours on selected setup</span>
+          </div>
+          <div class="batteryItem d-flex justify-content-between">
+            <span class="batteryName">IYK-D75</span>
+            <span class="estimated">estimated 7.2 hours on selected setup</span>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"

@@ -1,0 +1,3 @@
+class View {}
+
+class Controller {}
