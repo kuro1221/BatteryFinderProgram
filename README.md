@@ -3,8 +3,8 @@
 Recursion Project2 BatteryFinderProgram
 
 ## Description
-コンピュータ学習プラットフォームRecursionの課題の一つです。
-サンプル画面 https://kuro1221.github.io/BatteryFinderProgram/
+コンピュータ学習プラットフォームRecursionの課題の一つです。<br>
+サンプル画面<br> https://kuro1221.github.io/BatteryFinderProgram/
 
 Bootstrap
 Pure JavaScript
