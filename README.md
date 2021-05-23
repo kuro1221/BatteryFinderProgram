@@ -7,7 +7,8 @@ Recursion Project2 BatteryFinderProgram
 サンプル画面<br> https://kuro1221.github.io/BatteryFinderProgram/
 
 Bootstrap
-Pure JavaScript
+Pure<br>
+JavaScript
 
 ## Feature
 DOM操作
