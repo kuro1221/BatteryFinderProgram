@@ -11,8 +11,9 @@ Pure JavaScript
 
 ## Feature
 DOM操作
-Installation
-$ git clone https://github.com/kuro1221/BatteryFinderProgram.git
+
+## Installation
+$ git clone https://github.com/kuro1221/BatteryFinderProgram.git <br>
 $ cd BatteryFinderProgram
 
 
