@@ -1,8 +1,8 @@
-#BatteryFinderProgram
+# BatteryFinderProgram
 
 Recursion Project2 BatteryFinderProgram
 
-##Description
+## Description
 コンピュータ学習プラットフォームRecursionの課題の一つです。
 
 サンプル画面 https://kuro1221.github.io/BatteryFinderProgram/
