@@ -20,30 +20,28 @@
     <div id="target" class="m-5 p-5 col-10">
       <div class="stepDiv">
         <h2 class="stepTitle">step1: Select your brand</h2>
-        <select id="brandSelect">
-          <option>未選択</option>
-        </select>
+        <select id="brandSelect" onchange="View.createModelSelect()"></select>
       </div>
       <div class="stepDiv">
         <h2 class="stepTitle">step2: Select your Model</h2>
-        <select id="modelSelect">
-          <option>未選択</option>
-        </select>
+        <select id="modelSelect" onchange="Controller.changeInput()"></select>
       </div>
       <div class="stepDiv">
         <h2 class="stepTitle">step3: Input Accessory Power Consumption</h2>
         <input
           type="number"
-          placeholder="0"
+          value=0
+          min=0
           id="inputPower"
           class="mr-1"
           style="width: 40px"
+          onchange="Controller.changeInput()"
         />W
       </div>
       <div class="stepDiv">
         <h2 class="stepTitle">step4: Choose Your Battery</h2>
         <div id="batteryList">
-          <div class="batteryItem d-flex justify-content-between">
+          <!-- <div class="batteryItem d-flex justify-content-between">
             <span class="batteryName">IYK-D75</span>
             <span class="estimated">estimated 4.6 hours on selected setup</span>
           </div>
@@ -51,7 +49,7 @@
             <span class="batteryName">IYK-D75</span>
             <span class="estimated">estimated 7.2 hours on selected setup</span>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <script
